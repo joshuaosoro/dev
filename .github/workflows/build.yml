@@ -7,4 +7,4 @@ jobs:
         steps:            
             - run: node --version
             - run: npm --version
-            - run: ls -la
+            - run: pwd
