@@ -6,8 +6,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:            
             - run: node --version
-            - run: npm --version
+              name: Check Node Version
             - uses: actions/checkout@v2
+              name: Checkout Repository
             - run: ls -la
+              name: Get Content of the directory
             - run: python3 main.py
+              name: Run main.py file
             - run: pwd
+              name: Check the present working directory
