@@ -8,6 +8,7 @@ jobs:
             - run: node --version
             - run: npm --version
             - uses: actions/checkout@v2
+            - run: node app.js
             - run: python3 --version
             - run: python3 main.py
             - run: pwd
