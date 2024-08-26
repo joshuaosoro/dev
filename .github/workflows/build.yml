@@ -1,6 +1,8 @@
+name: Node Continous Integration
 on: push
 jobs: 
-    first-job:
+    build-job:
+        name: Build Node Project
         runs-on: ubuntu-latest
         steps:            
             - run: node --version
