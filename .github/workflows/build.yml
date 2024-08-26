@@ -7,4 +7,5 @@ jobs:
         steps:            
             - run: node --version
             - run: npm --version
-            - run: pwd
+            - uses: actions/checkout@v2
+            - run: ls -la
