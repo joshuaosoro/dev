@@ -8,5 +8,5 @@ jobs:
             - run: node --version
             - run: npm --version
             - uses: actions/checkout@v2
-            - run: ls -la 
+            - run: ls 
             - run: pwd
